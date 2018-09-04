@@ -9,7 +9,7 @@ app.on('ready', () => {
     win = new BrowserWindow({ width: 1000, height: 600 });
 
     win.loadURL(url.format({
-      pathname: path.join(__dirname, '/app/app.component.html'),
+      pathname: path.join(__dirname, 'src/index.html'),
       protocol: 'file:',
       slashes: true
     }));

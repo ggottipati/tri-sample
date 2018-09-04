@@ -9,8 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "electron": "electron .",
-    "package": "electron-packager . firstdesk"
+    "electron": "electron ."
+
   },
   "private": true,
   "dependencies": {
@@ -27,6 +27,7 @@
     "@angular/router": "^6.1.0",
     "core-js": "^2.5.4",
     "electron-packager": "^12.1.1",
+    "material-design-icons": "^3.0.1",
     "rxjs": "^6.0.0",
     "zone.js": "~0.8.26"
   },
