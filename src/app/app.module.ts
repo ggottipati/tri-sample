@@ -4,7 +4,7 @@ import { routingModule } from './app.routing'
 
 import { AppComponent } from './app.component';
 import { PatientListComponent } from './patient-list/patient-list.component';
-import { AppRoutingModule } from './/app-routing.module';
+// import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MyNavbarComponent } from './my-navbar/my-navbar.component';
 import { LayoutModule } from '@angular/cdk/layout';
@@ -24,7 +24,7 @@ import { PatientDetailsComponent } from './patient-details/patient-details.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    // AppRoutingModule,
     BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,

@@ -1,7 +1,12 @@
-<h1>Products List</h1>
+<!-- <app-patient-list></app-patient-list> -->
+<h1>Patient List</h1>
 
-<ul>
-  <li *ngFor="let patient of MOCK_PATIENTS">
-{{patient.firstName}} test
-  </li>
+  <ul>
+    <li *ngFor="let element of patients">
+      {{element.firstName}}, {{element.lastName}}
+    </li>
+  </ul>
+
+  <ul>
+
 </ul>

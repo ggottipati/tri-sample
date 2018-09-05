@@ -1,7 +1,7 @@
 import {Patient} from './patient';
 import { Gender } from './gender.enum';
 
-const MOCK_PATIENTS: Patient[] = [
+export const MOCK_PATIENTS: Patient[] = [
     {
         id: 1,
         firstName: "John",

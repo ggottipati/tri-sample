@@ -8,7 +8,7 @@ import { Patient } from "../patient-list/model/patients";
 })
 export class PatientDetailsComponent implements OnInit {
 
-  public patients: Patient[] = [
+  public patientLst: Patient[] = [
     new Patient(1, "Patients 001"),
     new Patient(2, "Patients 002"),
     new Patient(3, "Patients 003"),

@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Patient } from "./model/patients";
+import {MOCK_PATIENTS} from "../mock-patients"
 import { Gender } from '../gender.enum';
-
 
 @Component({
   selector: 'app-patient-list',
   templateUrl: './patient-list.component.html',
   styleUrls: ['./patient-list.component.css']
 })
-export class PatientListComponent implements OnInit {
+export class PatientListComponent {
 
-  const MOCK_PATIENTS: Patient[] = [
+   patients  = [
       {
           id: 1,
           firstName: "John",
@@ -32,6 +32,6 @@ export class PatientListComponent implements OnInit {
           dob: new Date("08/21/1984"),
           gender: Gender.Female
       }
-  ]
-  export default MOCK_PATIENTS;
+  ];
+
 }
